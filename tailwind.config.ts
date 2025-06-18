@@ -26,18 +26,18 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(217, 91%, 60%)',
+					DEFAULT: 'hsl(206, 100%, 18%)',
 					foreground: 'hsl(0, 0%, 100%)',
-					50: 'hsl(217, 100%, 97%)',
-					100: 'hsl(217, 96%, 94%)',
-					200: 'hsl(217, 97%, 87%)',
-					300: 'hsl(217, 94%, 74%)',
-					400: 'hsl(217, 91%, 60%)',
-					500: 'hsl(217, 91%, 60%)',
-					600: 'hsl(217, 84%, 53%)',
-					700: 'hsl(217, 80%, 44%)',
-					800: 'hsl(217, 73%, 35%)',
-					900: 'hsl(217, 65%, 28%)',
+					50: 'hsl(206, 100%, 97%)',
+					100: 'hsl(206, 96%, 94%)',
+					200: 'hsl(206, 97%, 87%)',
+					300: 'hsl(206, 94%, 74%)',
+					400: 'hsl(206, 91%, 60%)',
+					500: 'hsl(206, 91%, 45%)',
+					600: 'hsl(206, 100%, 18%)',
+					700: 'hsl(206, 80%, 15%)',
+					800: 'hsl(206, 73%, 12%)',
+					900: 'hsl(206, 65%, 9%)',
 				},
 				secondary: {
 					DEFAULT: 'hsl(210, 40%, 96.1%)',
@@ -52,8 +52,8 @@ export default {
 					foreground: 'hsl(215.4, 16.3%, 46.9%)'
 				},
 				accent: {
-					DEFAULT: 'hsl(217, 100%, 97%)',
-					foreground: 'hsl(217, 91%, 60%)'
+					DEFAULT: 'hsl(206, 100%, 97%)',
+					foreground: 'hsl(206, 100%, 18%)'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',

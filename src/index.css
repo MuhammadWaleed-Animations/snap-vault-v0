@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* SnapVault Light Blue Theme */
+/* SnapVault Dark Blue Theme */
 
 @layer base {
   :root {
@@ -13,19 +13,19 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 217 91% 60%;
+    --primary: 206 100% 18%;
     --primary-foreground: 0 0% 100%;
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 217 100% 97%;
-    --accent-foreground: 217 91% 60%;
+    --accent: 206 100% 97%;
+    --accent-foreground: 206 100% 18%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 217 91% 60%;
+    --ring: 206 100% 18%;
     --radius: 0.5rem;
   }
 }
@@ -51,7 +51,7 @@
   }
   
   .button-primary {
-    @apply bg-primary hover:bg-primary-600 text-white font-medium rounded-lg px-6 py-3 transition-all duration-200 shadow-lg hover:shadow-xl;
+    @apply bg-primary hover:bg-primary/90 text-white font-medium rounded-lg px-6 py-3 transition-all duration-200 shadow-lg hover:shadow-xl;
   }
   
   .button-secondary {

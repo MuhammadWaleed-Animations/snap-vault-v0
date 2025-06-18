@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Camera } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,12 +28,16 @@ const Header = () => {
 
           {/* Desktop Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" className="text-primary hover:text-primary-600">
-              Sign In
-            </Button>
-            <Button className="button-primary">
-              Get Started
-            </Button>
+            <Link to="/auth">
+              <Button variant="ghost" className="text-primary hover:text-primary/80">
+                Sign In
+              </Button>
+            </Link>
+            <Link to="/auth">
+              <Button className="button-primary">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -56,12 +61,16 @@ const Header = () => {
               <a href="#how-it-works" className="text-gray-700 hover:text-primary transition-colors">How It Works</a>
               <a href="#about" className="text-gray-700 hover:text-primary transition-colors">About</a>
               <div className="flex flex-col space-y-2 mt-4">
-                <Button variant="ghost" className="text-primary hover:text-primary-600 w-full">
-                  Sign In
-                </Button>
-                <Button className="button-primary w-full">
-                  Get Started
-                </Button>
+                <Link to="/auth">
+                  <Button variant="ghost" className="text-primary hover:text-primary/80 w-full">
+                    Sign In
+                  </Button>
+                </Link>
+                <Link to="/auth">
+                  <Button className="button-primary w-full">
+                    Get Started
+                  </Button>
+                </Link>
               </div>
             </nav>
           </div>
