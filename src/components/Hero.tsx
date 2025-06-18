@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Camera, Users, Zap } from 'lucide-react';
+import { Camera, Users, Zap, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
